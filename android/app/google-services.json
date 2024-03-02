@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "722962023512",
+    "project_id": "goldenthoughts-c4300",
+    "storage_bucket": "goldenthoughts-c4300.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722962023512:android:208f52cf6f2b0418c0362d",
+        "android_client_info": {
+          "package_name": "com.michaltrzopek.golden_thoughts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsSKLphD4SolyYba5npy6e8x7xnrZcNEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
