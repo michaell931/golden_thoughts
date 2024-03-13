@@ -2,6 +2,7 @@ import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_snake_navigationbar/flutter_snake_navigationbar.dart';
 import 'package:golden_thoughts/features/generate/generate_page.dart';
+import 'package:golden_thoughts/features/recent/recent_page.dart';
 import 'package:golden_thoughts/models/user_model.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -22,8 +23,8 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(
-          'Witaj!',
-          style: GoogleFonts.manrope(fontSize: 25, color: Colors.yellow),
+          'Twoja sentencja na dziś',
+          style: GoogleFonts.manrope(fontSize: 25, color: Colors.black),
         ),
       ),
       body: Builder(builder: (context) {
@@ -31,7 +32,7 @@ class _HomePageState extends State<HomePage> {
           return const GeneratePage();
         }
         if (currentIndex == 1) {
-          return const Text('1');
+          return const RecentPage();
         }
         if (currentIndex == 2) {
           return const Text('2');
@@ -44,7 +45,8 @@ class _HomePageState extends State<HomePage> {
         behaviour: SnakeBarBehaviour.pinned,
         snakeShape: SnakeShape.circle,
 
-        padding: const EdgeInsets.all(10),
+        padding: const EdgeInsets.all(3),
+        showSelectedLabels: true,
 
         ///configuration for SnakeNavigationBar.color
         snakeViewColor: Colors.orange,
@@ -71,10 +73,10 @@ class _HomePageState extends State<HomePage> {
           }
         },
         items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.add)),
-          BottomNavigationBarItem(icon: Icon(Icons.history)),
+          BottomNavigationBarItem(icon: Icon(Icons.add), label: 'Generuj'),
+          BottomNavigationBarItem(icon: Icon(Icons.history), label: 'Ostatnie'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.casino_sharp), label: 'Forum'),
+              icon: Icon(Icons.casino_sharp), label: 'Losuj'),
           BottomNavigationBarItem(
               icon: Icon(Icons.person), label: 'Użytkownik'),
         ],

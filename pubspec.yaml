@@ -58,6 +58,10 @@ dependencies:
   firebase_dynamic_links: ^5.4.8
   firebase_ui_auth: ^1.10.0
   flutter_snake_navigationbar: ^0.6.1
+  flutter_staggered_animations: ^1.1.1
+  pretty_animated_buttons: ^0.0.1
+  
+  
   
   
   

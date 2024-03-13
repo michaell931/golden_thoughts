@@ -12,10 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Estate Community App',
+      title: 'Golden Thoughts',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch().copyWith(
-          primary: const Color.fromARGB(0, 0, 0, 0),
+          primary: const Color.fromARGB(0, 255, 255, 255),
         ),
       ),
       home: const AuthPage(),
