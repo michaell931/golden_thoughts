@@ -17,14 +17,26 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   var currentIndex = 0;
 
+  String getAppBarText() {
+    if (currentIndex == 0) {
+      return "Twoja sentencja na dziś";
+    } else if (currentIndex == 1) {
+      return "Ostatnie sentencje";
+    } else if (currentIndex == 2) {
+      return "Twoje ulubione sentencje";
+    } else {
+      return "";
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(
-          'Twoja sentencja na dziś',
-          style: GoogleFonts.manrope(fontSize: 25, color: Colors.black),
+          getAppBarText(),
+          style: GoogleFonts.zillaSlab(fontSize: 30, color: Colors.black),
         ),
       ),
       body: Builder(builder: (context) {
@@ -41,22 +53,12 @@ class _HomePageState extends State<HomePage> {
         return const Text('3');
       }),
       bottomNavigationBar: SnakeNavigationBar.color(
-        // height: 80,
         behaviour: SnakeBarBehaviour.pinned,
         snakeShape: SnakeShape.circle,
-
         padding: const EdgeInsets.all(3),
         showSelectedLabels: true,
-
-        ///configuration for SnakeNavigationBar.color
         snakeViewColor: Colors.orange,
         selectedItemColor: Colors.black,
-
-        ///configuration for SnakeNavigationBar.gradient
-        // snakeViewGradient: selectedGradient,
-        // selectedItemGradient: snakeShape == SnakeShape.indicator ? selectedGradient : null,
-        // unselectedItemGradient: unselectedGradient,
-
         currentIndex: currentIndex,
         onTap: (newIndex) {
           if (newIndex == 3) {
@@ -73,10 +75,10 @@ class _HomePageState extends State<HomePage> {
           }
         },
         items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.add), label: 'Generuj'),
+          BottomNavigationBarItem(icon: Icon(Icons.casino), label: 'Generuj'),
           BottomNavigationBarItem(icon: Icon(Icons.history), label: 'Ostatnie'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.casino_sharp), label: 'Losuj'),
+              icon: Icon(Icons.favorite), label: 'Ulubione'),
           BottomNavigationBarItem(
               icon: Icon(Icons.person), label: 'Użytkownik'),
         ],

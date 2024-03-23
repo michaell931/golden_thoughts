@@ -14,16 +14,16 @@ class _GeneratePageState extends State<GeneratePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black,
       body: AnimationLimiter(
         child: ListView.builder(
           itemCount: 1,
           itemBuilder: (BuildContext context, int index) {
             return AnimationConfiguration.staggeredList(
               position: index,
-              duration: const Duration(milliseconds: 375),
+              duration: const Duration(milliseconds: 1000),
               child: SlideAnimation(
-                verticalOffset: 50.0,
+                verticalOffset: 100.0,
                 child: FadeInAnimation(
                   child: StreamBuilder<QuerySnapshot>(
                       stream: FirebaseFirestore.instance
@@ -55,7 +55,9 @@ class _GeneratePageState extends State<GeneratePage> {
                                   position: SlidePosition.left,
                                   bgColor: Colors.amber,
                                   foregroundColor: Colors.purple,
-                                  labelStyle: const TextStyle(fontSize: 25),
+                                  labelStyle: const TextStyle(
+                                    fontSize: 30,
+                                  ),
                                 ),
                               ),
                             ],
@@ -70,7 +72,7 @@ class _GeneratePageState extends State<GeneratePage> {
                               child: const Text(
                                 "GENERUJ!",
                                 style: TextStyle(
-                                    color: Colors.black, fontSize: 30),
+                                    color: Colors.black, fontSize: 40),
                               ),
                             ),
                           ],
