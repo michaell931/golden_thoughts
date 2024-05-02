@@ -1,0 +1,261 @@
+[
+    {
+      "id": 1,
+      "category": "love",
+      "content":
+          "In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine. (Maya Angelou)"
+    },
+    {
+      "id": 2,
+      "category": "love",
+      "content": "I hope it’s okay if I love you forever. (Ally Maine)"
+    },
+    {
+      "id": 3,
+      "category": "love",
+      "content":
+          "Nobody has ever measured, even poets, how much a heart can hold. (Zelda Fitzgerald)"
+    },
+    {
+      "id": 4,
+      "category": "love",
+      "content":
+          "For it was not into my ear you whispered, but into my heart. It was not my lips you kissed, but my soul. (Judy Garland)"
+    },
+    {
+      "id": 5,
+      "category": "love",
+      "content":
+          "Love makes your soul crawl out from its hiding place. (Zora Neale Hurston)"
+    },
+    {
+      "id": 6,
+      "category": "love",
+      "content":
+          "If I had a flower for every time I thought of you...I could walk through my garden forever. (Alfred Tennyson)"
+    },
+    {
+      "id": 7,
+      "category": "love",
+      "content":
+          "If you remember me, then I don’t care if everyone else forgets. (Haruki Murakami)"
+    },
+    {
+      "id": 8,
+      "category": "love",
+      "content":
+          "If you find someone you love in your life, then hang on to that love. (Princess Diana)"
+    },
+    {
+      "id": 9,
+      "category": "love",
+      "content":
+          "Love has nothing to do with what you are expecting to get–only with what you are expecting to give–which is everything. (Katharine Hepburn)"
+    },
+    {
+      "id": 10,
+      "category": "love",
+      "content": "Where there is love there is life. (Mahatma Gandhi)"
+    },
+    {
+      "id": 11,
+      "category": "love",
+      "content":
+          "Have enough courage to trust love one more time and always one more time. (Maya Angelou)"
+    },
+    {
+      "id": 12,
+      "category": "work",
+      "content":
+          "Choose a job you love, and you will never have to work a day in your life. (Confucius)"
+    },
+    {
+      "id": 13,
+      "category": "work",
+      "content":
+          "It’s not what you achieve, it’s what you overcome. That’s what defines your career. (Carlton Fisk)"
+    },
+    {
+      "id": 14,
+      "category": "work",
+      "content":
+          "Find out what you like doing best and get someone to pay you for doing it. (Katherine Whitehorn)"
+    },
+    {
+      "id": 15,
+      "category": "work",
+      "content":
+          "I’ve missed more than 9,000 shots in my career. I’ve lost almost 300 games. 26 times, I’ve been trusted to take the game winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed. (Michael Jordan)"
+    },
+    {
+      "id": 16,
+      "category": "work",
+      "content":
+          "Failure doesn’t mean you are a failure it just means you haven’t succeeded yet. (Robert H. Schuller)"
+    },
+    {
+      "id": 17,
+      "category": "work",
+      "content":
+          "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time. (Thomas A. Edison)"
+    },
+    {
+      "id": 18,
+      "category": "work",
+      "content":
+          "I think everyone should experience defeat at least once during their career. You learn a lot from it. (Lou Holtz)"
+    },
+    {
+      "id": 19,
+      "category": "work",
+      "content":
+          "I want to look back on my career and be proud of the work, and be proud that I tried everything. (Jon Stewart)"
+    },
+    {
+      "id": 20,
+      "category": "work",
+      "content":
+          "Desire! That’s the one secret of every man’s career. Not education. Not being born with hidden talents. Desire. (Johnny Carson)"
+    },
+    {
+      "id": 21,
+      "category": "work",
+      "content":
+          "Do not be too timid and squeamish about your actions. All life is an experiment. (Ralph Waldo Emerson)"
+    },
+    {
+      "id": 22,
+      "category": "work",
+      "content":
+          "All you need in this life is ignorance and confidence, and then success is sure. (Mark Twain)"
+    },
+    {
+      "id": 23,
+      "category": "travel",
+      "content":
+          "I haven’t been everywhere, but it’s on my list. (Susan Sontag)"
+    },
+    {
+      "id": 24,
+      "category": "travel",
+      "content": "Work, Travel, Save, Repeat."
+    },
+    {
+      "id": 25,
+      "category": "travel",
+      "content":
+          "When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money. (Susan Heller)"
+    },
+    {
+      "id": 26,
+      "category": "travel",
+      "content": "Vacation calories don’t count. Right?"
+    },
+    {
+      "id": 27,
+      "category": "travel",
+      "content":
+          "I want someone to look at me the way I look at a travel magazine."
+    },
+    {
+      "id": 28,
+      "category": "travel",
+      "content":
+          "The worst thing about being a tourist is having other tourists recognize you as a tourist. (Russell Baker)"
+    },
+    {
+      "id": 29,
+      "category": "travel",
+      "content":
+          "I’ve been to almost as many places as my luggage. (Bob Hope)"
+    },
+    {
+      "id": 30,
+      "category": "travel",
+      "content":
+          "Travel becomes a strategy for accumulating photographs. (Susan Sontag)"
+    },
+    {
+      "id": 31,
+      "category": "travel",
+      "content":
+          "Man cannot discover new oceans unless he has the courage to lose sight of the shore. (Andre Gide)"
+    },
+    {
+      "id": 32,
+      "category": "travel",
+      "content":
+          "Remember that happiness is a way of travel – not a destination. (Roy M. Goodman)"
+    },
+    {
+      "id": 33,
+      "category": "travel",
+      "content":
+          "The most beautiful in the world is, of course, the world itself. (Wallace Stevens)"
+    },
+    {
+      "id": 34,
+      "category": "life",
+      "content":
+          "Life comes from the earth and life returns to the earth. (Zhuangzi)"
+    },
+    {
+      "id": 35,
+      "category": "life",
+      "content":
+          "We are here to add what we can to life, not to get what we can from life. (William Osler)"
+    },
+    {
+      "id": 36,
+      "category": "life",
+      "content":
+          "The art of life is to know how to enjoy a little and to endure very much. (William Hazlitt)"
+    },
+    {
+      "id": 37,
+      "category": "life",
+      "content":
+          "If you change the way you look at things, the things you look at change. (Wayne Dyer)"
+    },
+    {
+      "id": 38,
+      "category": "life",
+      "content":
+          "For the great doesn't happen through impulse alone, and is a succession of little things that are brought together. (Vincent Van Gogh)"
+    },
+    {
+      "id": 39,
+      "category": "life",
+      "content":
+          "Perfection is not attainable. But if we chase perfection we can catch excellence. (Vince Lombardi)"
+    },
+    {
+      "id": 40,
+      "category": "life",
+      "content":
+          "You have succeeded in life when all you really want is only what you really need. (Vernon Howard)"
+    },
+    {
+      "id": 41,
+      "category": "life",
+      "content":
+          "Believe you can and you're halfway there. (Theodore Roosevelt)"
+    },
+    {
+      "id": 42,
+      "category": "life",
+      "content":
+          "To do the useful thing, to say the courageous thing, to contemplate the beautiful thing: that is enough for one man's life. (T.S. Eliot)"
+    },
+    {
+      "id": 43,
+      "category": "life",
+      "content":
+          "When I hear somebody sigh, Life is hard, I am always tempted to ask, Compared to what? (Sydney J. Harris)"
+    },
+    {
+      "id": 44,
+      "category": "life",
+      "content": "We pass through this world but once. (Stephen Jay Gould)"
+    }
+  ]

@@ -14,7 +14,7 @@ class _GeneratePageState extends State<GeneratePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       body: AnimationLimiter(
         child: ListView.builder(
           itemCount: 1,
